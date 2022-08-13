@@ -1,0 +1,141 @@
+body
+{
+    background-image: url('shade.png');
+    background-color: #DCF3EB;
+    overflow: hidden;
+}
+#heading
+{
+    margin-left: 490px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+#first
+{
+    font-family: 'Barlow', sans-serif;
+    font-size: 72;
+}
+#second
+{
+    font-family: 'Barlow', sans-serif;
+    font-size: 72;
+}
+#third
+{
+    font-family: 'Sacramento', sans-serif;
+    font-size: 96;
+}
+.semi_circle 
+{
+    width: 360px;
+    height: 180px;
+    margin-left: 735px;
+    position: absolute;
+    bottom: 310px;
+    background-image: linear-gradient(120deg,#FFFFFF,#3DC9D7);
+    transform: rotate(105deg);
+    background-color: #3DC9D7;
+    border-top-left-radius: 220px;  
+    border-top-right-radius: 220px; 
+    border-bottom: 0;
+}
+div
+{
+    margin-left: 490px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50;
+    margin-bottom: 0px;
+}
+#about_us
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 450px;
+}
+#services
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 410px;
+}
+#portfolio
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 370px;
+}
+#contact_us
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 330px;
+}
+a:link 
+{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited 
+{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover
+{
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+}
+#second
+{
+    margin-left: 530px;
+}
+#third
+{
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DC9D7;
+    font-size: 75;
+    margin-bottom: 0px;
+}
+hr
+{
+    transform: rotate(284deg);
+    height: 3;
+}
+footer
+{
+    margin-left: 1250px;
+    font-size: 17;
+    position: fixed;
+}
+
+/*transitions*/
+.semi_circle:hover{
+    width: 450px;
+    height: 225px;
+    margin-left: 675px;
+    position: absolute;
+    bottom: 280px;
+    background-image: linear-gradient(120deg,#FFFFFF,#3DC9D7);
+    transform: rotate(105deg);
+    background-color: #3DC9D7;
+    border-top-left-radius: 220px;  
+    border-top-right-radius: 220px; 
+    border-bottom: 0;
+    transition-duration: 75ms;
+
+}

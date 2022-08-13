@@ -1,0 +1,119 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #DCF3EB;
+    overflow: hidden;
+}
+#heading
+{
+    margin-left: 490px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    color: white;
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
+.semi_circle 
+{
+    width: 450px;
+    height: 225px;
+    margin-left: 668px;
+    position: absolute;
+    bottom: 280px;
+    background-image: linear-gradient(120deg,#FFFFFF,#3DC9D7);
+    transform: rotate(105deg);
+    background-color: #3DC9D7;
+    border-top-left-radius: 220px;  
+    border-top-right-radius: 220px; 
+    border-bottom: 0;
+}
+div
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50;
+    margin-bottom: 0px;
+}
+.diagonal-split-background
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #DCF3EB;
+    background-image: -webkit-linear-gradient(165deg, #DCF3EB 50%, #000000 50%);
+  }
+#about_us
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 450px;
+}
+#services
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 410px;
+}
+#portfolio
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 370px;
+}
+#contact_us
+{
+    margin-left: 1350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    position: fixed;
+    bottom: 330px;
+}
+a:link 
+{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited 
+{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover
+{
+    color: orangered;
+    background-color: transparent;
+    text-decoration: none;
+}
+#first
+{
+    margin-left: 500px;
+    font-size: 60px;
+    color: white;
+}
+#second
+{
+    margin-left: 530px;
+    font-size: 60px;
+    color: white;
+}
+#third
+{
+    margin-left: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3DC9D7;
+    font-size: 100;
+    margin-bottom: 0px;
+}
+footer
+{
+    margin-left: 1250px;
+    font-size: 17;
+    position: fixed;
+}
